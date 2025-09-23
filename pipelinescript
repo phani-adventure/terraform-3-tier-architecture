@@ -1,7 +1,7 @@
 pipeline {
     agent any 
 
-    environment {
+    environmens {
         AWS_ACCESS_KEY_ID     = credentials('accesskey')
         AWS_SECRET_ACCESS_KEY = credentials('secretkey')
     }
